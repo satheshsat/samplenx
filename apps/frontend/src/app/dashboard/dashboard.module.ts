@@ -3,6 +3,7 @@ import { DashboardComponent } from "./dashboard/dashboard.component";
 import { CommonModule } from "@angular/common";
 import { FormsModule, ReactiveFormsModule } from "@angular/forms";
 import { RouterModule } from "@angular/router";
+import { NgChartjsModule } from 'ng-chartjs';
 
 @NgModule({
     declarations: [
@@ -12,6 +13,7 @@ import { RouterModule } from "@angular/router";
       CommonModule,
       FormsModule,
       ReactiveFormsModule,
+      NgChartjsModule,
       RouterModule.forChild([
         {
           path: '',
